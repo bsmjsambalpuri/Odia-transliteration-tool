@@ -1,4 +1,4 @@
-# Odia Converter
+# Odia typing tool
 
 A fast and lightweight **English to Odia Transliteration Tool** built using pure JavaScript.
 
@@ -150,10 +150,9 @@ Add entries like this:
 Try to add:
 
 - Frequently used Odia words
-- District names
-- Person names
+- Person and place names
 - Sambalpuri words
-- Common spelling corrections
+- Common spelling corrections (many English words need to be corrected)
 
 ---
 
