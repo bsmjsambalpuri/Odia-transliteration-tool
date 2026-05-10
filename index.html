@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Odia Converter – English to Odia Transliteration Tool</title>
+
+<meta name="description" content="Free Odia Converter tool to instantly convert English typing into Odia Unicode text online. Fast, modern and easy-to-use Odia transliteration keyboard.">
+
+<meta name="keywords" content="Odia Converter, English to Odia, Odia Transliteration, Odia Unicode Tool, Odia Typing">
+
+<meta name="author" content="BSMJ">
+
+<meta property="og:title" content="Odia Converter – English to Odia Transliteration Tool">
+<meta property="og:description" content="Convert English text into Odia Unicode instantly with this modern Odia transliteration tool.">
+<meta property="og:type" content="website">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="hero">
+        <h1>Odia transliteration tool</h1>
+        <p>
+            Type in English and instantly convert it into Odia Unicode text.
+            Fast, accurate and easy to use.<br/>by <a href="https://bsmjsambalpuri.in" target="_blank">BSMJSambalpuri.in</a>
+        </p>
+
+    </div>
+
+   <div class="converter-box">
+
+    <div class="editor-grid">
+
+        <div class="field">
+            <label for="inputText">English Input</label>
+            <textarea 
+                id="inputText" 
+                placeholder="Type or paste in English here..."></textarea>
+        </div>
+
+        <div class="field">
+            <label for="outputText">Odia Output</label>
+            <textarea 
+                id="outputText" 
+                placeholder="Converted Odia text will appear here..." 
+                readonly></textarea>
+        </div>
+
+    </div>
+
+    <div class="buttons">
+        <button id="copyBtn">Copy Output</button>
+        <button id="clearBtn">Clear</button>
+		<a 
+       href="https://github.com/yourusername/odia-converter" 
+       target="_blank"
+       class="github-btn">
+       Help To Improve
+    </a>
+    </div>
+
+</div>
+
+    <footer>
+        <p>© 2026 BSMJ Sambalpuri • Built for fast Odia typing</p>
+    </footer>
+
+</div>
+
+<script src="js/db-data.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/app.js"></script>
+
+<script>
+const copyBtn = document.getElementById("copyBtn");
+const clearBtn = document.getElementById("clearBtn");
+
+copyBtn.addEventListener("click", () => {
+    const output = document.getElementById("outputText");
+    output.select();
+    document.execCommand("copy");
+
+    copyBtn.innerText = "Copied!";
+    setTimeout(() => {
+        copyBtn.innerText = "Copy Output";
+    }, 1500);
+});
+
+clearBtn.addEventListener("click", () => {
+    document.getElementById("inputText").value = "";
+    document.getElementById("outputText").value = "";
+});
+</script>
+
+</body>
+</html>
