@@ -1,5 +1,7 @@
 # Odia typing tool
 
+Link : [Odia typing tool](https://bsmjsambalpuri.github.io/Odia-transliteration-tool/)
+
 A fast and lightweight **English to Odia Transliteration Tool** built using pure JavaScript.
 
 This project converts English phonetic typing into **Odia Unicode text** instantly inside the browser.
