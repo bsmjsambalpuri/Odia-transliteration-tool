@@ -1,6 +1,6 @@
 # Odia typing tool
 
-Link : [Odia typing tool](https://bsmjsambalpuri.github.io/Odia-transliteration-tool/)
+Link : <a href="https://bsmjsambalpuri.github.io/Odia-transliteration-tool/" target="_blank">Odia typing tool</a>
 
 A fast and lightweight **English to Odia Transliteration Tool** built using pure JavaScript.
 
