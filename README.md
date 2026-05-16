@@ -1,4 +1,6 @@
-# Odia Converter
+# Odia typing tool
+
+Link : <a href="https://bsmjsambalpuri.github.io/Odia-transliteration-tool/" target="_blank">Odia typing tool</a>
 
 A fast and lightweight **English to Odia Transliteration Tool** built using pure JavaScript.
 
@@ -150,9 +152,9 @@ Add entries like this:
 Try to add:
 
 - Frequently used Odia words
-- Person and places names
+- Person and place names
 - Sambalpuri words
-- Common spelling corrections (many english words need to be corrected)
+- Common spelling corrections (many English words need to be corrected)
 
 ---
 
