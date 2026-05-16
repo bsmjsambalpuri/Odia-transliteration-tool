@@ -150,10 +150,9 @@ Add entries like this:
 Try to add:
 
 - Frequently used Odia words
-- District names
-- Person names
+- Person and places names
 - Sambalpuri words
-- Common spelling corrections
+- Common spelling corrections (many english words need to be corrected)
 
 ---
 
