@@ -18898,7 +18898,7 @@ window.DB  ={
 "helikobyaktara":"ହେଲିକୋବ୍ୟାକ୍ଟର",
 "helikobyaktrara":"ହେଲିକୋବ୍ୟାକ୍ଟ୍ରର",
 "heliksa":"ହେଲିକ୍ସ",
-"hello":"ହେଲୋ"
+"hello":"ହେଲୋ",
 "helo":"ହେଲୋ",
 "help":"ହେଲ୍ପ୍",
 "helpadeska":"ହେଲ୍ପଡେସ୍କ",
